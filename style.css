@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    width: 100%;
+  font-weight: bold;
+   font-size: 2rem;
+   background-color: black;
+   color: white;
+}
+.container{
+    height: 40vmin;
+    width: 90vmin;
+    display: flex;
+    margin: 5vmin;
+}
+.box{
+    height: 23vmin;
+    width: 25vmin;
+    margin: 5vmin;
+    border: none;
+    background-size: 100% 100%;
+    border-radius: 50%;
+  
+   
+}
+.box1{
+    background-image: url("paper.png");
+
+}
+.box2{
+    background-image: url("rock.png");
+}
+.box3{
+    background-image: url("scissors.png");
+}
+.box:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem #92909062;
+}
+.box:active{
+    height: 25vmin;
+    width: 27vmin;
+    transform: translateY(0.5rem);
+    
+}
+.wintabel{
+    display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+.you{
+    width: 25vmin;
+
+}
+.com{
+    width: 25vmin;
+
+}
+
+.scorename{
+    height: 10vmin;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.youname{
+    width: 25vmin;
+}
+.comname{
+    width: 25vmin;
+}
+.winname{
+    background-color: rgb(0, 166, 42);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 0.8rem;
+
+}
